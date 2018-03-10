@@ -1,6 +1,5 @@
 # arduino-extractor-bano
-sistema de encendido periódico de un ventilador/extractor de baño con detector de movimiento y nivel de humedad
-arduino-based bathroom extractor controller, activated every hour, any time there is movement or when detecting high humidity
+Arduino-based bathroom extractor controller, activated every hour, any time there is movement or when detecting high humidity
 
 This arduino project is being used to control a bathroom extractor. It uses two sensors (DHT11 for humidity and the tipycal PIR for movement, and also a relay to activate the extractor motor) I use it with an arduino nano (ATmega328P, the cheap one). 
 
