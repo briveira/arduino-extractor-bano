@@ -15,7 +15,7 @@ While there is high humidity or movement it will stay on and it will last for at
 
 ## customize configuration
 
-To modify this default values: percentage of humidity >=90, minimum minutes on (15), maximum time off (45), just modify this values before uploading the code to your arduino :
+To modify this default configuration (percentage of humidity >=90, minimum minutes on 15, maximum time off 45), just modify this values before uploading the code to your arduino board:
 
 #define PORCENTAJE_HUMEDAD_ALTA 90
 #define MINIMO_ENCENDIDO_MILISEGUNDOS (15 * 60 * 1000L)
