@@ -31,11 +31,11 @@ Of course, you can modify those default values.
 // minutos que estara encendido tras detectar humedad alta, 
 // o movimiento
 
-#define MINIMO_ENCENDIDO_MILISEGUNDOS (15 * 60 * 1000L)
+#define MINIMO_ENCENDIDO_MILISEGUNDOS (15 * 60000L)
 
 // minutos que tarda en encender desde el último apagado
 
-#define MAXIMO_TIEMPO_APAGADO_MILISEGUNDOS (45 * 60 * 60000L)
+#define MAXIMO_TIEMPO_APAGADO_MILISEGUNDOS (45 * 60000L)
 
 // enviar info a la consola
 
